@@ -7,7 +7,7 @@ function Location({
     handleSevenDayForecast
 }) {
   
-    const [location, setLocation] = useState('Houston');
+    const [location, setLocation] = useState('');
 
     //Open Weather Map API
     const api = {

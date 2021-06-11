@@ -1,29 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Forecast.css';
 
 const Day = ({forecast}) => {
-    // const [entry, setEntry] = useState('');
-    // const [weather, setWeather] = useState({});
-
-    // const api = {
-    //     key: "2bc90cf230438961d510a69c84f16903",
-    //     byCity: "https://api.openweathermap.org/data/2.5/weather?",
-    //     byLongLat: "https://api.openweathermap.org/data/2.5/onecall?"
-    // }
-
-    // const onChange = (event) => {
-    //     setEntry(event.target.value);
-    // }
-
-    // const search = async (event) => {
-    //     if(event.key === 'Enter') {
-    //         fetch( api.byCity + "q=" + entry + "&units=imperial&appid=" + api.key )
-    //             .then(res => res.json())
-    //             .then(result => {
-    //                 setWeather(result)
-    //             })
-    //     }
-    // }
 
     const getDate = () => {
         const monthNames = ["January", "February", "March", "April", "May", "June",

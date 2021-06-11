@@ -6,7 +6,7 @@ import Weekly from './Weekly.js';
 import './App.css';
 
 function App() {
-  const [timeFrame, setTimeFrame] = useState('sevenDay');
+  const [timeFrame, setTimeFrame] = useState('');
   const [sevenDay, setSevenDay] = useState([]);
   const [today, setToday] = useState({});
 
